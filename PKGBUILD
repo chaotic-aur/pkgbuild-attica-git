@@ -14,7 +14,7 @@ makedepends=(git extra-cmake-modules-git doxygen qt5-tools qt5-doc)
 conflicts=(${pkgname%-git})
 provides=(${pkgname%-git})
 groups=(kf5-git)
-source=("git+https://github.com/KDE/${pkgname%-git}.git")
+source=("git+https://github.com/KDE/${pkgname%-git}#branch=kf5")
 sha256sums=('SKIP')
 
 pkgver() {
